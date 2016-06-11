@@ -95,7 +95,7 @@ class LazyList extends BasicComponent {
   render() {
     return (
       <ons-list {...this.props} ref='list'
-        class='list' style={{position: 'relative', height: this.state.height}}
+        style={{position: 'relative', height: this.state.height}}
         >
         <ons-lazy-repeat ref='lazyRepeat' />
         {this.state.children}
